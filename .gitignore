@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / editor directories
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs and local
+*.log
+
+# OS-specific
+Thumbs.db
+
+# Python environment
+.env
+
+# Node modules or other large packages (if any)
+node_modules/
