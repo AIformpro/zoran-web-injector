@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zoran Web Injector</title>
+</head>
+<body>
+    <h1>Zoran Web Injector</h1>
+    <form method="post">
+        <label for="glyph">Enter Glottal Glyph:</label>
+        <input type="text" id="glyph" name="glyph" value="{{ glyph }}">
+        <button type="submit">Parse</button>
+    </form>
+    {% if result %}
+        <h2>Result</h2>
+        <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
